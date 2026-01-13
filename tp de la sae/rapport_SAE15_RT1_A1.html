@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapport SAÉ 1.5 - Traiter des Données</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+        }
+        
+        h3 {
+            color: #7f8c8d;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        th {
+            background-color: #3498db;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+        
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        tr:hover {
+            background-color: #f0f0f0;
+        }
+        
+        hr {
+            border: none;
+            border-top: 2px solid #ecf0f1;
+            margin: 30px 0;
+        }
+        
+        ul, ol {
+            line-height: 1.8;
+        }
+        
+        strong {
+            color: #e74c3c;
+        }
+        
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        .info-box {
+            background-color: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        img {
+            display: block;
+            margin: 20px auto;
+        }
+        
+        @media print {
+            body {
+                background-color: white;
+            }
+            
+            .container {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+<h1>Rapport d'Analyse - SAÉ 1.5</h1>
+<h2>Traiter des Données avec Python</h2>
+<hr />
+<h3>Informations générales</h3>
+<ul>
+<li><strong>Groupe de TP</strong> : RT1-A1</li>
+<li><strong>Date de génération</strong> : 06/01/2026</li>
+<li><strong>Fichier source</strong> : ADE_RT1_Septembre2025_Decembre2025.ics</li>
+</ul>
+<hr />
+<h2>Travail 3 : Tableau des séances de R1.07</h2>
+<p>Cette section présente toutes les séances de la ressource <strong>R1.07 (Informatique)</strong> pour le groupe <strong>RT1-A1</strong>.</p>
+<h3>Résultats</h3>
+<p>Nombre total de séances : <strong>66</strong></p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Durée</th>
+<th>Modalité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>19-09-2025</td>
+<td>02:00</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>04-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>21-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>21-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>04-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>20-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>13-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>14-10-2025</td>
+<td>01:30</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>10-10-2025</td>
+<td>02:00</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>15-10-2025</td>
+<td>01:30</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>07-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>13-10-2025</td>
+<td>02:00</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>21-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>22-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>06-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>14-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>04-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>03-10-2025</td>
+<td>02:00</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>03-10-2025</td>
+<td>02:00</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>15-09-2025</td>
+<td>02:00</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>24-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>05-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>08-10-2025</td>
+<td>02:00</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>14-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>19-09-2025</td>
+<td>02:00</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>12-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>17-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>03-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>08-10-2025</td>
+<td>02:00</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>15-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>10-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>22-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>05-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>13-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>07-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>14-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>24-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>23-09-2025</td>
+<td>02:00</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>06-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>21-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>12-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>12-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>23-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>15-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>24-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>10-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>10-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>05-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>07-10-2025</td>
+<td>02:00</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>12-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>21-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>05-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>21-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>17-10-2025</td>
+<td>01:30</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>20-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>04-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>06-10-2025</td>
+<td>02:00</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>05-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>10-11-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>17-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>13-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>29-09-2025</td>
+<td>02:00</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>24-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>17-10-2025</td>
+<td>02:00</td>
+<td>TP</td>
+</tr>
+<tr>
+<td>10-10-2025</td>
+<td>01:30</td>
+<td>vide</td>
+</tr>
+<tr>
+<td>15-09-2025</td>
+<td>02:00</td>
+<td>vide</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Travail 4 : Graphique du nombre de séances de TP par mois</h2>
+<p>Ce graphique présente le nombre de séances de <strong>TP</strong> (tous modules confondus) pour le groupe <strong>RT1-A1</strong> sur la période septembre-décembre 2025.</p>
+<h3>Statistiques</h3>
+<table>
+<thead>
+<tr>
+<th>Mois</th>
+<th>Nombre de TP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Septembre</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Octobre</td>
+<td>48</td>
+</tr>
+<tr>
+<td>Novembre</td>
+<td>45</td>
+</tr>
+<tr>
+<td>Décembre</td>
+<td>24</td>
+</tr>
+<tr>
+<td><strong>TOTAL</strong></td>
+<td><strong>117</strong></td>
+</tr>
+</tbody>
+</table>
+<h3>Diagramme en bâtons</h3>
+<p><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0id2hpdGUiLz48bGluZSB4MT0iMTAwIiB5MT0iNDAwLjAiIHgyPSI4NTAiIHkyPSI0MDAuMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iNDA1LjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjA8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjM5NC4wIiB4Mj0iODUwIiB5Mj0iMzk0LjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjM5OS4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij4xPC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIzODguMCIgeDI9Ijg1MCIgeTI9IjM4OC4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIzOTMuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+MjwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMzgyLjAiIHgyPSI4NTAiIHkyPSIzODIuMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMzg3LjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjM8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjM3Ni4wIiB4Mj0iODUwIiB5Mj0iMzc2LjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjM4MS4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij40PC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIzNzAuMCIgeDI9Ijg1MCIgeTI9IjM3MC4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIzNzUuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+NTwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMzY0LjAiIHgyPSI4NTAiIHkyPSIzNjQuMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMzY5LjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjY8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjM1OC4wIiB4Mj0iODUwIiB5Mj0iMzU4LjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjM2My4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij43PC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIzNTIuMCIgeDI9Ijg1MCIgeTI9IjM1Mi4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIzNTcuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+ODwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMzQ2LjAiIHgyPSI4NTAiIHkyPSIzNDYuMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMzUxLjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjk8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjM0MC4wIiB4Mj0iODUwIiB5Mj0iMzQwLjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjM0NS4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij4xMDwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMzM0LjAiIHgyPSI4NTAiIHkyPSIzMzQuMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMzM5LjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjExPC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIzMjguMCIgeDI9Ijg1MCIgeTI9IjMyOC4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIzMzMuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+MTI8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjMyMi4wIiB4Mj0iODUwIiB5Mj0iMzIyLjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjMyNy4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij4xMzwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMzE2LjAiIHgyPSI4NTAiIHkyPSIzMTYuMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMzIxLjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjE0PC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIzMTAuMCIgeDI9Ijg1MCIgeTI9IjMxMC4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIzMTUuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+MTU8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjMwNC4wIiB4Mj0iODUwIiB5Mj0iMzA0LjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjMwOS4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij4xNjwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMjk4LjAiIHgyPSI4NTAiIHkyPSIyOTguMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMzAzLjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjE3PC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIyOTIuMCIgeDI9Ijg1MCIgeTI9IjI5Mi4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIyOTcuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+MTg8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjI4Ni4wIiB4Mj0iODUwIiB5Mj0iMjg2LjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjI5MS4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij4xOTwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMjgwLjAiIHgyPSI4NTAiIHkyPSIyODAuMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMjg1LjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjIwPC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIyNzQuMCIgeDI9Ijg1MCIgeTI9IjI3NC4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIyNzkuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+MjE8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjI2OC4wIiB4Mj0iODUwIiB5Mj0iMjY4LjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjI3My4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij4yMjwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMjYyLjAiIHgyPSI4NTAiIHkyPSIyNjIuMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMjY3LjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjIzPC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIyNTYuMCIgeDI9Ijg1MCIgeTI9IjI1Ni4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIyNjEuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+MjQ8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjI1MC4wIiB4Mj0iODUwIiB5Mj0iMjUwLjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjI1NS4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij4yNTwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMjQ0LjAiIHgyPSI4NTAiIHkyPSIyNDQuMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMjQ5LjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjI2PC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIyMzguMCIgeDI9Ijg1MCIgeTI9IjIzOC4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIyNDMuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+Mjc8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjIzMi4wIiB4Mj0iODUwIiB5Mj0iMjMyLjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjIzNy4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij4yODwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMjI2LjAiIHgyPSI4NTAiIHkyPSIyMjYuMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMjMxLjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjI5PC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIyMjAuMCIgeDI9Ijg1MCIgeTI9IjIyMC4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIyMjUuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+MzA8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjIxNC4wIiB4Mj0iODUwIiB5Mj0iMjE0LjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjIxOS4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij4zMTwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMjA4LjAiIHgyPSI4NTAiIHkyPSIyMDguMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMjEzLjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjMyPC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIyMDIuMCIgeDI9Ijg1MCIgeTI9IjIwMi4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIyMDcuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+MzM8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjE5Ni4wIiB4Mj0iODUwIiB5Mj0iMTk2LjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjIwMS4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij4zNDwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMTkwLjAiIHgyPSI4NTAiIHkyPSIxOTAuMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMTk1LjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjM1PC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIxODQuMCIgeDI9Ijg1MCIgeTI9IjE4NC4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIxODkuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+MzY8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjE3OC4wIiB4Mj0iODUwIiB5Mj0iMTc4LjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjE4My4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij4zNzwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMTcyLjAiIHgyPSI4NTAiIHkyPSIxNzIuMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMTc3LjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjM4PC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIxNjYuMCIgeDI9Ijg1MCIgeTI9IjE2Ni4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIxNzEuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+Mzk8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjE2MC4wIiB4Mj0iODUwIiB5Mj0iMTYwLjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjE2NS4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij40MDwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMTU0LjAiIHgyPSI4NTAiIHkyPSIxNTQuMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMTU5LjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjQxPC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIxNDguMCIgeDI9Ijg1MCIgeTI9IjE0OC4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIxNTMuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+NDI8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjE0Mi4wIiB4Mj0iODUwIiB5Mj0iMTQyLjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjE0Ny4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij40MzwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMTM2LjAiIHgyPSI4NTAiIHkyPSIxMzYuMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMTQxLjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjQ0PC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIxMzAuMCIgeDI9Ijg1MCIgeTI9IjEzMC4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIxMzUuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+NDU8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjEyNC4wIiB4Mj0iODUwIiB5Mj0iMTI0LjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjEyOS4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij40NjwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMTE4LjAiIHgyPSI4NTAiIHkyPSIxMTguMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMTIzLjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjQ3PC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSIxMTIuMCIgeDI9Ijg1MCIgeTI9IjExMi4wIiBzdHJva2U9IiNlMGUwZTAiIHN0cm9rZS13aWR0aD0iMSIvPjx0ZXh0IHg9IjgwIiB5PSIxMTcuMCIgdGV4dC1hbmNob3I9ImVuZCIgZm9udC1zaXplPSIxNCI+NDg8L3RleHQ+PGxpbmUgeDE9IjEwMCIgeTE9IjEwNi4wIiB4Mj0iODUwIiB5Mj0iMTA2LjAiIHN0cm9rZT0iI2UwZTBlMCIgc3Ryb2tlLXdpZHRoPSIxIi8+PHRleHQgeD0iODAiIHk9IjExMS4wIiB0ZXh0LWFuY2hvcj0iZW5kIiBmb250LXNpemU9IjE0Ij40OTwvdGV4dD48bGluZSB4MT0iMTAwIiB5MT0iMTAwLjAiIHgyPSI4NTAiIHkyPSIxMDAuMCIgc3Ryb2tlPSIjZTBlMGUwIiBzdHJva2Utd2lkdGg9IjEiLz48dGV4dCB4PSI4MCIgeT0iMTA1LjAiIHRleHQtYW5jaG9yPSJlbmQiIGZvbnQtc2l6ZT0iMTQiPjUwPC90ZXh0PjxsaW5lIHgxPSIxMDAiIHkxPSI1MCIgeDI9IjEwMCIgeTI9IjQwMCIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIyIi8+PGxpbmUgeDE9IjEwMCIgeTE9IjQwMCIgeDI9Ijg1MCIgeTI9IjQwMCIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIyIi8+PHRleHQgeD0iNTAiIHk9IjIzMCIgZm9udC1zaXplPSIxNiIgZm9udC13ZWlnaHQ9ImJvbGQiIHRyYW5zZm9ybT0icm90YXRlKC05MCA1MCAyMzApIj5Ob21icmUgZGUgVFA8L3RleHQ+PHRleHQgeD0iNDUwIiB5PSI0NzAiIGZvbnQtc2l6ZT0iMTYiIGZvbnQtd2VpZ2h0PSJib2xkIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5Nb2lzPC90ZXh0PjxyZWN0IHg9IjE1MCIgeT0iNDAwLjAiIHdpZHRoPSIxMjAiIGhlaWdodD0iMC4wIiBmaWxsPSIjRkY2QjZCIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSIyMTAuMCIgeT0iMzkwLjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIj4wPC90ZXh0Pjx0ZXh0IHg9IjIxMC4wIiB5PSI0MzAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTQiPlNlcHRlbWJyZTwvdGV4dD48cmVjdCB4PSIzMzAiIHk9IjExMi4wIiB3aWR0aD0iMTIwIiBoZWlnaHQ9IjI4OC4wIiBmaWxsPSIjNEVDREM0IiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz48dGV4dCB4PSIzOTAuMCIgeT0iMTAyLjAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIj40ODwvdGV4dD48dGV4dCB4PSIzOTAuMCIgeT0iNDMwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LXNpemU9IjE0Ij5PY3RvYnJlPC90ZXh0PjxyZWN0IHg9IjUxMCIgeT0iMTMwLjAiIHdpZHRoPSIxMjAiIGhlaWdodD0iMjcwLjAiIGZpbGw9IiM0NUI3RDEiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMiIvPjx0ZXh0IHg9IjU3MC4wIiB5PSIxMjAuMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9ImJvbGQiPjQ1PC90ZXh0Pjx0ZXh0IHg9IjU3MC4wIiB5PSI0MzAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTQiPk5vdmVtYnJlPC90ZXh0PjxyZWN0IHg9IjY5MCIgeT0iMjU2LjAiIHdpZHRoPSIxMjAiIGhlaWdodD0iMTQ0LjAiIGZpbGw9IiNGRkEwN0EiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMiIvPjx0ZXh0IHg9Ijc1MC4wIiB5PSIyNDYuMCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9ImJvbGQiPjI0PC90ZXh0Pjx0ZXh0IHg9Ijc1MC4wIiB5PSI0MzAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iMTQiPkTDqWNlbWJyZTwvdGV4dD48L3N2Zz4=" alt="Graphique des séances de TP" style="max-width: 100%; border: 1px solid #ddd; border-radius: 5px; padding: 10px; background: white;"/></p>
+<hr />
+<h2>Analyse</h2>
+<ul>
+<li>Le mois avec le <strong>plus de séances de TP</strong> est <strong>Octobre</strong> avec <strong>48</strong> séance(s).</li>
+<li>Le groupe <strong>RT1-A1</strong> a eu au total <strong>117</strong> séances de TP sur la période.</li>
+<li>Le groupe a également suivi <strong>66</strong> séance(s) de R1.07 (Informatique).</li>
+</ul>
+<hr />
+<p><em>Rapport généré automatiquement par Programme5.py</em></p>
+    </div>
+</body>
+</html>
